@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
-
 }
 
 *, *::before, *::after {
@@ -18,19 +17,18 @@ img {
   width: 100%;
 }
 
-footer {
+.footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 0;
   background-color: #8bc9d9;
   border-top: 3px solid #005e76;
   color: #005e76;
   padding: 1.5rem 0;
 }
 
-footer h2 {
+.footer h2 {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
@@ -43,13 +41,12 @@ footer h2 {
 .social {
   margin-left: auto;
   display: flex;
-  padding:0 1rem;
+  padding: 0 1rem;
 }
-
 
 .social > li {
   width: 3em;
-  margin:0 .5em;
+  margin: 0 .5em;
 }
 
 .footer ul {
@@ -60,7 +57,6 @@ footer h2 {
 .footer a {
   color: #003442;
 }
-
 
 .links {
   padding: 0 1rem;
